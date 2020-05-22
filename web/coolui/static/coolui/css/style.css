@@ -42,9 +42,20 @@ nav ul {
 }
 
 .module {
-    border-radius: 3em .8em;
     background-color: rgb(153, 231, 255);
     margin: auto;
     width: 75%;
     padding: .5em 1.5em;
+}
+
+a:link, a:visited{
+    padding: 0.2em 0.4em;
+    color: black;
+    text-align: justify;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    background-color: rgb(153, 231, 255);
 }
