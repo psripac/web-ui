@@ -1,9 +1,31 @@
 <!DOCTYPE html>
+{% load static %}
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Patrick, the Programmer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Patrick, The Developer</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'coolui/css/style.css' %}">
 </head>
 <body>
-    <h1>Welcome!</h1>
+    <div class="container">
+        <nav>
+            <ul class="show-desktop hide-mobile" id="nav">
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">contact</a></li>
+                    <li><a href="#">projects</a></li>
+                </li>
+            </ul>
+        </nav>
+        <h1>Welcome!</h1>
+        <div class="module">
+            <h2>hosted with AWS using Django on apache.</h2>
+        </div>
+        <p>
+            You've reached my development website.<br>
+            This page is currently under construction, please check back later!!!<br>
+        </p>
+    </div>
 </body>
 </html>
